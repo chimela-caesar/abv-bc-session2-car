@@ -1,0 +1,29 @@
+{
+  "name": "abv-bc-session2-car",
+  "version": "1.0.0",
+  "description": "a `Car` class that can be used to instantiate various vehicles. It takes in arguments that depict the type, model, and name of the vehicle, provided they are set.",
+  "main": "app/car.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philipeano/javascript-demo-project.git"
+  },
+  "author": "Philip Newman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Philipeano/javascript-demo-project/issues"
+  },
+  "homepage": "https://github.com/Philipeano/javascript-demo-project#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
